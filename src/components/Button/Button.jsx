@@ -3,14 +3,14 @@ import './styles.css';
 
 // объект props передается как параметр в круглые скобки, при создании компонента
 //деструктуризация 2 вариант  function Button({name})
-function Button({name = "SEND"}) {
-  const buttonType = "submit";
+function Button({name = "SEND", type = "button"} ) {
+ /*  const buttonType = "submit"; */
 
 /*   // деструктуризация 1 вариант ИСП РЕДКО
   const {name} = props; */
 
   return (
-    <button className="main-button" type={buttonType}>
+    <button className="main-button" type={type}>
      {name}
     </button>
   );
