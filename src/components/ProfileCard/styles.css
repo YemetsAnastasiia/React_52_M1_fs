@@ -1,0 +1,25 @@
+.profile-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-width: 400px;
+    background-color: rgb(152, 152, 242);
+    border: 4px solid rgb(57, 57, 209);
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.profile-card-wrapper img {
+    width: 100%;
+    max-width: 150px;  
+    height: auto; 
+    border-radius: 50%;  
+    object-fit: cover; 
+}
+
+.main-button {
+    background-color: rgb(20, 20, 84);
+    color: aliceblue;
+    width: 150px;
+}
