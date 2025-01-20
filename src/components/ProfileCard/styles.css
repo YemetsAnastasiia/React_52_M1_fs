@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     min-width: 400px;
     background-color: rgb(152, 152, 242);
@@ -12,14 +13,14 @@
 
 .profile-card-wrapper img {
     width: 100%;
-    max-width: 150px;  
-    height: auto; 
-    border-radius: 50%;  
-    object-fit: cover; 
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.main-button {
+/* .main-button {
     background-color: rgb(20, 20, 84);
     color: aliceblue;
     width: 150px;
-}
+} */

@@ -1,3 +1,33 @@
+import './styles.css';
+
+
+// объект props передается как параметр в круглые скобки, при создании компонента
+//деструктуризация 2 вариант  function Button({name})
+function Button({name = "SEND"}) {
+  const buttonType = "submit";
+
+/*   // деструктуризация 1 вариант ИСП РЕДКО
+  const {name} = props; */
+
+  return (
+    <button className="main-button" type={buttonType}>
+     {name}
+    </button>
+  );
+}
+
+// экспорт по умолчанию  (он может быть только один в файле)
+export default Button;
+
+
+
+
+
+
+
+
+/* 
+// не гибкий вариант
 // импорт стилей
 import "./styles.css";
 
@@ -14,3 +44,4 @@ function Button() {
 
 // экспорт по умолчанию  (он может быть только один в файле)
 export default Button;
+ */

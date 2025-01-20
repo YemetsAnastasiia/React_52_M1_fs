@@ -10,5 +10,5 @@ export const profileData = {
     profession: 'Entrepreneur, CEO of SpaceX & Tesla',
     hobby: 'Space exploration, electric vehicles, reading, technology',
     avatar: 'https://nmspacemuseum.org/wp-content/uploads/2019/03/Elon_Musk.jpg'
-}; 
+};
 
