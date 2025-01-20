@@ -1,0 +1,19 @@
+.input-wrapper {
+   display: flex;
+   flex-direction: column;
+   width: 470px;
+   max-height: 78px;
+   gap: 6px;
+}
+
+.input-label {
+   font-size: 14px;
+   color: rgb(90, 88, 88);
+}
+
+.input-field {
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid;
+   border-radius: 4px;
+}
